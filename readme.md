@@ -1,4 +1,4 @@
-This is a small device that can be placed between the PC motherboard and its power button. And allowes you to turn the pc on via an http request or the traditional power button.
+This is a small device that can be placed between the PC motherboard and its power button. And allows you to turn the pc on via an http request or the traditional power button.
 
 
 # Why
