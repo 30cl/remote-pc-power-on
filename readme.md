@@ -37,7 +37,7 @@ Default for pressing the power or reset button is 100ms. According to my motherb
 
 Compile and upload the code to the board.
 
-When connected to the WiFi the buildin LED will turn on. At this point you can get the IP address from your router or simular.
+When connected to the WiFi the build in LED will turn on. At this point you can get the IP address from your router or simular.
 
 ### Endpoints
 - `/status`
@@ -70,13 +70,13 @@ Things you need
 The schema:
 ![schema](img/schema.png)
 
-My result, this is the board im using right now:
+My result, this is the board I'm using right now:
 ![Build result](img/result.jpg)
 
 
 ### Connecting
 
-Im using a Asus ROG Strix z390-E motherboard. The code or the schema may not be compatible with your motherboard. Use a multimeter to verify everything before you break your motherboard.
+I'm using a Asus ROG Strix z390-E motherboard. The code or the schema may not be compatible with your motherboard. Use a multimeter to verify everything before you break your motherboard.
 
 This is the System panel connector pinout:
 ![System panel connector pinout](img/spc.png)
@@ -87,7 +87,7 @@ On my motherboard I found that the usb2.0 headers are always powered. So I modif
 #### Status
 I found the Speaker 5V+ pin is only powered when the PC is on. This is likely to not be the case for other boards. You might need to find another way (maybe the power LED?).
 
-The `/power-on` and `/power-off` endpoints are using the status and will only act if the system in is the oposite state.
+The `/power-on` and `/power-off` endpoints are using the status and will only act if the system in is the opossite state.
 Without a status, you can still use the `/power-toggle`.
 
 ### Power and reset buttons
