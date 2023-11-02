@@ -2,6 +2,15 @@ This is a small device that can be placed between the PC motherboard and its pow
 
 - [Why](#why)
 - [How does it work](#how-does-it-work)
+- [Who to build it](#who-to-build-it)
+  - [Compile and upload](#compile-and-upload)
+    - [Endpoints](#endpoints)
+  - [Hardware](#hardware)
+    - [Connecting](#connecting)
+      - [Power](#power)
+      - [Status](#Status)
+      - [Power and reset buttons](#power-and-reset-buttons)
+  - [Configure Home Assistant](#configure-home-assistant)
 
 # Why
 
