@@ -2,7 +2,7 @@ This is a small device that can be placed between the PC motherboard and its pow
 
 - [Why](#why)
 - [How does it work](#how-does-it-work)
-- [Who to build it](#who-to-build-it)
+- [How to build it](#how-to-build-it)
   - [Compile and upload](#compile-and-upload)
     - [Endpoints](#endpoints)
   - [Hardware](#hardware)
@@ -27,7 +27,7 @@ A micro controller with WiFi sits between the power/reset button and the motherb
 All actions are intergrated in [Home Assistant](https://www.home-assistant.io/)
 
 
-# Who to build it
+# How to build it
 
 This requires 3 things
 - Compile and upload code to a micro controller
