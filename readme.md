@@ -11,6 +11,7 @@ This is a small device that can be placed between the PC motherboard and its pow
       - [Status](#Status)
       - [Power and reset buttons](#power-and-reset-buttons)
   - [Configure Home Assistant](#configure-home-assistant)
+  	- [Example panel](#example-panel)
 
 # Why
 
@@ -178,7 +179,10 @@ automation:
     mode: single
 ```
 
-And this is the dashboard panel. It implements all the actions from the device.
+
+### Example panel
+
+A simple dashboard panel could look like this
 ```yaml
 type: entities
 entities:
