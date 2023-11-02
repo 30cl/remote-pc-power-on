@@ -1,5 +1,7 @@
 This is a small device that can be placed between the PC motherboard and its power button. And allows you to turn the pc on via an http request or the traditional power button.
 
+- [Why](#why)
+- [How does it work](#how-does-it-work)
 
 # Why
 
@@ -15,7 +17,7 @@ A micro controller with WiFi sits between the power/reset button and the motherb
 All actions are intergrated in [Home Assistant](https://www.home-assistant.io/)
 
 
-# Build it
+# Who to build it
 
 This requires 3 things
 - Compile and upload code to a micro controller
@@ -90,7 +92,7 @@ I found the Speaker 5V+ pin is only powered when the PC is on. This is likely to
 The `/power-on` and `/power-off` endpoints are using the status and will only act if the system in is the opossite state.
 Without a status, you can still use the `/power-toggle`.
 
-### Power and reset buttons
+#### Power and reset buttons
 On the motherboard, both buttons have a ground and input pin (normaly high). Pressing the button will pull the value low.
 
 Connect the corresponding PwrBtn, PwrGnd, RstBtn and RstGnd to the device. Optionaly connect the case power/restart buttons if you want to use those.
